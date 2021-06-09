@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    
+    <h1>Rutas</h1><br>
+
+<label for="nombre">Nombre: </label><br>
+<input type="text" id="nombre"><br>
+
+<label for="nombre">Minutos: </label><br>
+<input type="text" id="minutos"><br>
+
+
+
+<button onclick="Agregar()" id="nuevo">Agregar</button>
+<br><br><br>
+Buscar o Eliminar<br>
+<input type="text" id="textoabuscar">
+<br>
+
+<button onclick="Buscar()" >Buscar</button><br>
+<button onclick="Listar()">Listar</button>
+<button onclick="Eliminar()">Eliminar</button>
+
+<p id="resultado"></p>
+<br>
+<p id="lista"></p>
+
+Base Inicio:<br>
+<input type="text" id="baseinicio">
+<br>
+
+Hora Inicio:<br>
+<input type="text" id="horainicio">
+<br>
+
+Hora fin:<br>
+<input type="text" id="horafin">
+<br>
+
+<button onclick="Recorrido()" >Crear Recorrido</button><br><br>
+ 
+<p id="tarjeta"></p>
+</body>
+</html>
